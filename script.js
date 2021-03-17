@@ -12,17 +12,3 @@ function removeActiveClasses() {
     panel.classList.remove('active');
   });
 }
-
-const forms = document.querySelectorAll('.order-form');
-
-forms.forEach((form) => {
-  form.addEventListener('click', () => {});
-  removeActiveClasses();
-  form.classList.add('active');
-});
-
-function removeActiveForm() {
-  forms.forEach((form) => {
-    form.classList.remove('active');
-  });
-}
